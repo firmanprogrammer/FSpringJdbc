@@ -1,5 +1,5 @@
 #FSpringJdbc
-Projek Maven+Spring+MySQL materi insert database with simple JDBC.
+Info: Simple Maven+Spring+JdbcMySQL
 Tools: Eclipse, MySQLWorkbench or etc
 
 ##Tutorial
