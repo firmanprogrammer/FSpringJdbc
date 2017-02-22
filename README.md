@@ -1,6 +1,6 @@
 #FSpringJdbc
-*Info: Simple Maven+Spring+JdbcMySQL
-*Tools: Eclipse, MySQLWorkbench or etc
+1. Info: Simple Maven+Spring+JdbcMySQL
+2. Tools: Eclipse, MySQLWorkbench or etc
 
 ##Tutorial
 1. Database, create database & table:
