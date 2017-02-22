@@ -21,7 +21,7 @@ Tools: Eclipse, MySQLWorkbench or etc
   * Artifact Id: **FSpringJdbc**
   * Package: **com.belajarspring.common**
 
-5. Open file **pom.xml** add this for spring-jdbc and mysql-connector-java:
+5. Open file **pom.xml** add this for spring-jdbc and mysql-connector-java, then save it:
     ```
     ...
     <properties>
@@ -63,4 +63,30 @@ Tools: Eclipse, MySQLWorkbench or etc
 
     </dependencies>
     ```
-6. 
+    for full code [Download Here](https://github.com/firmanprogrammer/FSpringJdbc/blob/master/pom.xml)
+    
+6. Create a new package with name **com.belajarspring.model** and create a new class with name **Customer** in this package.
+
+7. In this class type like this:
+    ```
+    package com.belajarspring.model;
+    public class Customer {
+        int custId;
+        String fullName;
+        String address;
+        String email;
+    }
+    ```
+    
+8. in eclipse: right-click on Customer class/coding page then choose ***Source - Generate constractor using fields*** and right-click again choose ***Source - Generate Getters and Setters***. for full code [Download Here](https://github.com/firmanprogrammer/FSpringJdbc/blob/master/src/main/java/com/belajarspring/model/Customer.java)
+
+9. Create a new package with name **com.belajarspring.dao** and create a new class with name **CustomerDao** in this package and type like this [Download Here](https://github.com/firmanprogrammer/FSpringJdbc/blob/master/src/main/java/com/belajarspring/dao/CustomerDao.java)
+
+10. Create a new package with name **com.belajarspring.dao.impl** and create a new class with name **JdbcCustomerDao** in this package and type like this [Download Here](https://github.com/firmanprogrammer/FSpringJdbc/blob/master/src/main/java/com/belajarspring/dao/impl/JdbcCustomerDao.java)
+
+11. Create a new folder in **../src/main** with name **resources** and create 3 xml files in this folder and enter code like this **[Datasource.xml](https://github.com/firmanprogrammer/FSpringJdbc/blob/master/src/main/resources/Datasource.xml), [Beans.xml](https://github.com/firmanprogrammer/FSpringJdbc/blob/master/src/main/resources/Beans.xml), [Main.xml](https://github.com/firmanprogrammer/FSpringJdbc/blob/master/src/main/resources/Main.xml)**
+
+12. Open class **App.java** and change with this [Here's code](https://github.com/firmanprogrammer/FSpringJdbc/blob/3fb95566dcba9de9ffa050539c5dec0db1f0f5e2/src/main/java/com/belajarspring/common/App.java)
+
+
+
