@@ -88,5 +88,5 @@ Tools: Eclipse, MySQLWorkbench or etc
 
 12. Open class **App.java** and change with this [Here's code](https://github.com/firmanprogrammer/FSpringJdbc/blob/3fb95566dcba9de9ffa050539c5dec0db1f0f5e2/src/main/java/com/belajarspring/common/App.java)
 
-
+13. Then right-click on file **App.java** in eclipse choose **Run As - Java Application**
 
